@@ -86,17 +86,14 @@ async function install() {
   }
 
   let pool = new Pool({
-    host: db.databaseHost,
-    port: db.databasePort,
-    user: db.databaseUser,
-    password: db.databasePassword,
-    database: db.databaseName,
+    host: "localhost",
+    port: 5432,
+    database: "admin",
+    user: "admin",
+    password: "mypassword",
     max: 30,
     idleTimeoutMillis: 30000,
     connectionTimeoutMillis: 2000,
-    ssl: {
-      rejectUnauthorized: false
-    }
   });
 
   // Test the secure connection

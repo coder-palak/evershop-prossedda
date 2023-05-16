@@ -120,7 +120,7 @@ export function StepContent({
             />
           </div>
         )}
-
+        
         <h4 className="mb-1 mt-3">{_('Payment Method')}</h4>
         {paymentMethods && paymentMethods.length > 0 && (
           <>

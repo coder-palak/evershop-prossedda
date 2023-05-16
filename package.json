@@ -1,5 +1,5 @@
 {
-  "name": "evershop",
+  "name": "prossedda",
   "version": "1.0.0-beta",
   "description": "A shopping cart platform with Express, React and MySQL",
   "files": [
@@ -51,6 +51,8 @@
   "dependencies": {
     "@evershop/evershop": "^1.0.0-beta",
     "babel-plugin-fast-async": "^6.1.2",
+    "razorpay": "^2.8.6",
+    "react-razorpay": "^1.2.0",
     "regenerator-runtime": "^0.13.9",
     "supertest": "^6.2.2"
   }

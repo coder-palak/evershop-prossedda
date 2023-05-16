@@ -82,10 +82,10 @@
   "system": {
     "database": {
       "host": "localhost",
-      "port": 3306,
-      "database": "nodejscart",
+      "port": 5432,
+      "database": "admin",
       "user": "admin",
-      "password": "123456"
+      "password": "mypassword"
     }
   }
 }

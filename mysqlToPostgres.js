@@ -11,11 +11,11 @@ const mysqlConfig = {
 
 // PostgreSQL database configuration
 const pgConfig = {
-  host: "localhost",
-  user: "postgres",
-  password: "123456",
-  database: "evershop",
-  port: 5432,
+  "host": "localhost",
+  "port": 5432,
+  "database": "admin",
+  "user": "admin",
+  "password": "mypassword"
 };
 
 // List of tables to copy

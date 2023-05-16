@@ -5,11 +5,11 @@ const fs = require('fs');
 const { getConfig } = require('../util/getConfig');
 
 const connectionSetting = {
-  host: getConfig('system.database.host'),
-  port: getConfig('system.database.port'),
-  user: getConfig('system.database.user'),
-  password: getConfig('system.database.password'),
-  database: getConfig('system.database.database'),
+  "host": "localhost",
+  "port": 5432,
+  "database": "admin",
+  "user": "admin",
+  "password": "mypassword",
   max: 30,
   idleTimeoutMillis: 30000,
   connectionTimeoutMillis: 2000
