@@ -86,11 +86,11 @@ async function install() {
   }
 
   let pool = new Pool({
-    host: "localhost",
-    port: 5432,
-    database: "admin",
-    user: "admin",
-    password: "mypassword",
+    "host": "localhost",
+    "port": 5432,
+    "database": "admin",
+    "user": "postgres",
+    "password": "admin",
     max: 30,
     idleTimeoutMillis: 30000,
     connectionTimeoutMillis: 2000,

@@ -1,7 +1,0 @@
-extend type Setting {
-  razorpayPaymentStatus: Int
-  razorpayDislayName: String
-  razorpayPublishableKey: String
-  razorpaySecretKey: String
-  razorpayEndpointSecret: String
-}

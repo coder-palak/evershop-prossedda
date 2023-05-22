@@ -47,7 +47,7 @@ CODPayment.propTypes = {
 
 export const layout = {
   areaId: 'paymentSetting',
-  sortOrder: 20
+  sortOrder: 25
 };
 
 export const query = `

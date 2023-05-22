@@ -5,7 +5,7 @@ import './MainBanner.scss';
 export default function MainBanner() {
   const text = _('Discount ${discount} For All Orders Over ${price}', {
     discount: '20%',
-    price: '$2000'
+    price: '2000'
   });
   return (
     <div className="main-banner-home flex items-center">

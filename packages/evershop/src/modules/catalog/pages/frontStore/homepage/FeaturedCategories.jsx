@@ -4,7 +4,7 @@ import Button from '@components/frontStore/cms/Button';
 export default function FeaturedCategories() {
   return (
     <div className="mt-15">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 page-width">
+      {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-2 page-width">
         <div>
           <div className="text-center">
             <img src="/assets/homepage/banner/men-shoes.jpeg" alt="" />
@@ -47,7 +47,7 @@ export default function FeaturedCategories() {
           </div>
           <Button url="/category/men" title="Shop men" variant="primary" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

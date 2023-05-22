@@ -16,6 +16,9 @@ const { getSetting } = require('../../../setting/services/setting');
 // eslint-disable-next-line no-unused-vars
 module.exports = async (request, response, stack, next) => {
   const sig = request.headers['stripe-signature'];
+  console.log(JSON.parse(request.body))
+  
+  console.log(JSON.stringify(request.body))
 
   let event;
   const connection = await getConnection();

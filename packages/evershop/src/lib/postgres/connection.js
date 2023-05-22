@@ -8,8 +8,8 @@ const connectionSetting = {
   "host": "localhost",
   "port": 5432,
   "database": "admin",
-  "user": "admin",
-  "password": "mypassword",
+  "user": "postgres",
+  "password": "admin",
   max: 30,
   idleTimeoutMillis: 30000,
   connectionTimeoutMillis: 2000

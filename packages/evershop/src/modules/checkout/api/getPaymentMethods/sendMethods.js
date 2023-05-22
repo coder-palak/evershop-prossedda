@@ -6,6 +6,7 @@ const {
 // eslint-disable-next-line no-unused-vars
 module.exports = async (request, response, deledate, next) => {
   const promises = [];
+  console.log(deledate)
   // eslint-disable-next-line no-restricted-syntax
   for (const id in deledate) {
     // Check if middleware is async
@@ -13,6 +14,7 @@ module.exports = async (request, response, deledate, next) => {
       promises.push(deledate[id]);
     }
   }
+  console.log(promises)
   try {
     const data = [];
     // Wait for all async middleware to be completed

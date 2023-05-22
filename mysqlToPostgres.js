@@ -14,8 +14,8 @@ const pgConfig = {
   "host": "localhost",
   "port": 5432,
   "database": "admin",
-  "user": "admin",
-  "password": "mypassword"
+  "user": "postgres",
+  "password": "admin",
 };
 
 // List of tables to copy
