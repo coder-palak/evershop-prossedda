@@ -8,6 +8,7 @@ export function PriceFilter({
   updateFilter,
   setting: { storeLanguage: language, storeCurrency: currency }
 }) {
+  console.log(currency);
   const firstRender = React.useRef(true);
   const [from, setFrom] = React.useState(() => {
     const minPriceFilter = currentFilters.find((f) => f.key === 'minPrice');

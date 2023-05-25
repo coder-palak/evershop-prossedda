@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 export default function FeaturedProducts({ collection }) {
+  console.log(collection)
   if (!collection) {
     return null;
   }

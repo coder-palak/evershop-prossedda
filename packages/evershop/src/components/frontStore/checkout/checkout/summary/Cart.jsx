@@ -18,11 +18,11 @@ function CartSummary({
 }) {
   return (
     <div className="checkout-summary-block">
-      <Subtotal count={totalQty} total={subTotal.text} />
-      <Shipping method={shippingMethodName} cost={shippingFeeExclTax.text} />
-      <Tax taxClass="" amount={taxAmount.text} />
-      <Discount code={coupon} discount={discountAmount.text} />
-      <Total total={grandTotal.text} />
+      <Subtotal count={totalQty} total={subTotal.value} />
+      <Shipping method={shippingMethodName} cost={shippingFeeExclTax.value} />
+      <Tax taxClass="" amount={taxAmount.value} />
+      <Discount code={coupon} discount={discountAmount.value} />
+      <Total total={grandTotal.value} />
     </div>
   );
 }

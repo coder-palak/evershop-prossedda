@@ -8,6 +8,7 @@ import { get } from '@evershop/evershop/src/lib/util/get';
 import { _ } from '@evershop/evershop/src/lib/locale/translate';
 
 export default function ProductList({ products = [], countPerRow = 3 }) {
+  console.log(products)
   if (products.length === 0) {
     return (
       <div className="product-list">
